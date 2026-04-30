@@ -4,6 +4,7 @@ void main() {
     doc.mostrarDatos();
     System.out.println("------------------------------------");
 
+    doc.agregarPaciente("Juan Perez");
 
 
 }

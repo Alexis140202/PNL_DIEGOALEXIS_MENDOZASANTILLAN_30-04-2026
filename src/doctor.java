@@ -13,5 +13,9 @@ class doctor extends persona{
         System.out.println("Especialidad: " + especialidad);
         System.out.println("Numero de Licencia: " + numLicencia);
     }
+    public void agregarPaciente(String nombrePaciente) {
+        System.out.println("El dr. " +nombre + " ha registrado a: " + nombrePaciente);
+
+    }
 
 }
